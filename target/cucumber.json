@@ -1,0 +1,209 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-03-03T01:39:58.966Z",
+        "line": 10,
+        "name": "(Delete File)Edit File functionality Manual S3",
+        "description": "",
+        "id": "default;(delete-file)edit-file-functionality-manual-s3",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "User is Logged in to website",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "user goes to file page",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13,
+            "name": "Clicks the three dot next to the file that the user wishes to delete",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14,
+            "name": "Clicks \"Delete\" option",
+            "match": {},
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CLOUD-267"
+          }
+        ]
+      }
+    ],
+    "name": "Default",
+    "description": "",
+    "id": "default",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/DeleteFile.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-03-03T01:39:59.185Z",
+        "line": 10,
+        "name": "(Move file)Edit File functionality Manual S3",
+        "description": "",
+        "id": "default;(move-file)edit-file-functionality-manual-s3",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "User is Logged in to website",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "user goes to file page",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13,
+            "name": "Clicks the three dot next to the file that the user wishes to move",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14,
+            "name": "Clicks \"Move or copy\" option",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15,
+            "name": "User Selects the target folder",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 16,
+            "name": "clicks \"Move\" button",
+            "match": {},
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CLOUD-266"
+          }
+        ]
+      }
+    ],
+    "name": "Default",
+    "description": "",
+    "id": "default",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Movefile.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-03-03T01:39:59.216Z",
+        "line": 9,
+        "name": "(Upload File)Edit File functionality Manual S3",
+        "description": "",
+        "id": "default;(upload-file)edit-file-functionality-manual-s3",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "User is Logged in to website",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "user goes to file page",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "Clicks the + button",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13,
+            "name": "Clicks Upload File",
+            "match": {},
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CLOUD-265"
+          }
+        ]
+      }
+    ],
+    "name": "Default",
+    "description": "",
+    "id": "default",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/UploadFile.feature",
+    "tags": []
+  }
+]
